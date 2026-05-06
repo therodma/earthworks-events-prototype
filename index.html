@@ -551,7 +551,7 @@ document.getElementById('bookingForm').addEventListener('submit', async function
 
   await new Promise(r => setTimeout(r, 1200));
 
-  successEl.textContent = `Thanks ${name}! Rhea will confirm your booking within 24 hours.`;
+  successEl.textContent = `Thanks ${name}! Your booking request has been received and will be confirmed within 24 hours.`;
   successEl.style.display = 'block';
   this.reset();
   selectedDate = null;
